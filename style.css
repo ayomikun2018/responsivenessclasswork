@@ -36,12 +36,13 @@ h2 {
   margin: 0 auto;
   gap: 15px;
   align-items: center;
-  padding-left: 30px;
 }
 .circle {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+  display: flex;
+  margin : 0 auto;
 }
 .circle-red {
   background: red;
@@ -77,11 +78,13 @@ footer {
   }
   .circle-set {
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 200px;
+   
   }
   .circle {
     height: 150px;
     width: 150px;
+    display: flex;
+    margin : 0 auto
   }
   footer {
     padding: 40px 0;
